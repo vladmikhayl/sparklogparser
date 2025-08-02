@@ -1,0 +1,39 @@
+# === Scala / Java ===
+*.class
+*.log
+*.tmp
+*.swp
+*.swo
+*.bak
+
+# === IntelliJ IDEA ===
+.idea/
+*.iml
+*.iws
+out/
+
+# === Maven ===
+target/
+!.mvn/wrapper/maven-wrapper.jar
+
+# === OS generated ===
+.DS_Store
+Thumbs.db
+
+# === VS Code ===
+.vscode/
+
+# === Test / Coverage ===
+*.coverage
+*.cov
+*.exec
+
+# === Spark temp / metastore ===
+spark-warehouse/
+.derby.log
+metastore_db/
+
+# === Others ===
+*.jar
+*.war
+*.zip
