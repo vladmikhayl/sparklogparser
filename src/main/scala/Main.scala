@@ -32,7 +32,7 @@ object Main {
 
     println("[METRIC 2] Открытия документов, найденных через быстрый поиск (QS):")
 
-    qsDocOpensDF.show(100, truncate = false)
+    qsDocOpensDF.show(20, truncate = false)
 
     qsDocOpensDF.write
       .option("header", "true")
