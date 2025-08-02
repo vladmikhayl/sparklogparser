@@ -16,6 +16,9 @@ out/
 target/
 !.mvn/wrapper/maven-wrapper.jar
 
+# === Logs ===
+src/main/resources/logs/
+
 # === OS generated ===
 .DS_Store
 Thumbs.db
